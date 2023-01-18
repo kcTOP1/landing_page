@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    
+    
+}
+
+.head-links{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    j
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
