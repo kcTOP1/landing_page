@@ -1,13 +1,13 @@
 .header-cont {
     background-color: #1F2937;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    
     color: white;   
 }
 
@@ -20,6 +20,9 @@
 }
 
 .logo {
+    font: 24px;
+    color: #F9FAF8;
+    padding-top: 10px;
     font-weight: 700;
 }
 
@@ -33,12 +36,43 @@ a {
     display: flex;
     color: white;
     gap: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    
 }
 
 .subsection-1 {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 400px;
     flex-wrap: wrap;
+}
 
+.highlight-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.placeholder {
+    align-self: center;
+}
+
+.button {
+    color: white;
+    background-color: #3882F6;
+    max-width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.placeholder {
+    background-color: gray;
+    padding: 50px 100px 50px 100px;
 }
