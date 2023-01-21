@@ -1,3 +1,8 @@
+.container {
+    flex-direction: column;
+}
+
+
 .header-cont {
     background-color: #1F2937;
     padding-left: 100px;
@@ -75,4 +80,38 @@ a {
 .placeholder {
     background-color: gray;
     padding: 50px 100px 50px 100px;
+}
+
+.info-text {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 50px 0px 50px 0px;
+}
+
+.box-cont {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.box-sec {
+    max-width: 100px;
+    
+}
+
+.text {
+    flex-wrap: wrap;
+}
+
+.boxs {
+    display: flex;
+    border-style: solid;
+    border-radius: 9px;
+    width: 100px;
+    height: 100px;
+    border-color: #3882F6;
+   
 }
