@@ -40,7 +40,7 @@ a {
 .main-header {
     display: flex;
     color: white;
-    gap: 100px;
+    justify-content: space-around;
     padding-top: 75px;
     padding-bottom: 75px;
     
@@ -142,7 +142,7 @@ a {
 }
 
 .ad-cont {
-    margin: 75px;
+    margin: 125px 175px 125px 175px;
 }
 
 .ad {
@@ -176,5 +176,14 @@ a {
     padding: 0px 20px 0px 20px;
     border-style: solid;
 }
+
+.footer {
+    height: 72px;
+    background: #eee;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 
